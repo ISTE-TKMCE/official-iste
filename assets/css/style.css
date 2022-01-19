@@ -1,5 +1,6 @@
 .body{
     overflow-x: hidden;
+    background-color: #E5E5E5;
 }
 
 @media screen and (max-width:992px) {
@@ -18,48 +19,53 @@
         font-family: 'Nunito', sans-serif;
         font-family: 'Oswald', sans-serif;
         background-color: rgba(47, 54, 106, 0.95);
-        border-bottom-left-radius: 480px 250px;
+        border-bottom-left-radius: 450px 380px;
         height: 100%;
         width: 100%;
         
     }
-    .navbar-brand{
+    /* .navbar-brand{
         margin-top: 7%;
         margin-left: 15%;
         margin-bottom: 10%;
         
-    }
-    .brand{
-        
+    } */
+    #brand{
+        margin-top: 7%;
+        margin-left: 15%;
+        margin-bottom: 10%;
         width: 50%;
     } 
     
     .navbar-nav{
-        font-size: xx-small;
+        font-size: small;
         position: relative;
         margin-left: 10%;
-        margin-top: -260px;
+        /* margin-top: -260px; */
     }
-    .image1{
+    /* .image1{
         
         
         margin-top: -5%;
         
         
+    } */
+    .container-fluid .row{
+        margin:auto;
     }
     .nav-item{
         margin-left: 5px;
-        margin-top: 10px;
+        
     }
     .navbar-toggler{
    
         position: absolute;
-        margin-top: 2%;
+        
         margin-left: 70%;
         
     }
     #navbarNav{
-        margin-top: 50%;
+        margin-top: 180px;
         margin-left: 80%;
     }
     .design{
@@ -113,7 +119,7 @@ nav{
     margin-bottom: 10%;
    
 }
-.brand{
+#brand{
     
     width: 500px;
 } 
@@ -179,7 +185,7 @@ nav{
         margin-bottom: 10%;
        
     }
-    .brand{
+    #brand{
         
         width: 70%;
     } 
@@ -209,5 +215,29 @@ nav{
     }
     .nav-item{
         margin-left: 30px;
+    }
+    
+    
+    
+      
+      
+    
+      .container {
+        padding: 2px 16px;
+      }
+    .imgh{
+        position: relative;
+        
+        
+       
+        
+    }
+    .card-text{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+    }
+    .card-title{
+        font-family: 'Oswald', sans-serif;
+        font-size: 36px;
     }
 }
