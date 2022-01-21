@@ -2,26 +2,26 @@
 .container{
     margin: 10px;
 }
-h1{
+.footer>h1{
     text-align: left;
     margin: 10px !important;
    
     color: white;
 }
-h4{
+.footer>h4{
     color: white;
 }
-p{
+.footer>p{
     color: aliceblue;
 }
-h1
+.footer>h1
 {
     font-family: serif;
     letter-spacing: 1px;
     margin-top: 0px;
     color: white;
 }
-h1:after
+.footer>h1:after
 {
     content: '';
     background: white;
@@ -39,9 +39,11 @@ h1:after
     position: absolute;
     bottom: 0;
 }
-body{
+.footer{
     background: #231261 !important;
     height: 500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .main{
     margin-top: 200px;
@@ -94,23 +96,19 @@ body{
     margin: 10px auto;
     position: relative;
 }
-*{
-    margin: 0;
-    padding: 0;
-    font-family: serif;
-}
-h6{
+
+.footer>h6{
     color: #ffffff;
     
     
     text-align: start;
 }
 
-button{
+.footer>button{
     width: 30px;
     height: 30px;
 }
-h5
+.footer>h5
 {
     color: #ffffff;
 }

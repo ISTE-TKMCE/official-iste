@@ -91,7 +91,7 @@
     position: absolute;
     top: 0;
     z-index: 1;
-    animation: Circle 12s linear infinite;
+    animation: Circle 12s linear 1s infinite;
     width: 50%;
     
     margin-left: -30px;
@@ -123,12 +123,103 @@ nav{
     
     width: 500px;
 } 
+div.a {
+    
+    
+    position:absolute;
+    top: 5px;
+    left: 5px;   
+}
+div.b {
 
+
+    position:absolute;
+    top: 95px;
+    left: 95px;   
+}
+div.c {
+
+
+    position:absolute;
+    top: 5px;
+    left: 95px;   
+} 
+div.d {
+
+
+    position:absolute;
+    top: 5px;
+    left: 275px;   
+}  
+div.e {
+
+
+    position:absolute;
+    top: 95px;
+    left: 275px;   
+}   
+div.f {
+
+
+    position:absolute;
+    top: 275px;
+    left: 95px;   
+}  
+div.g {
+
+
+    position:absolute;
+    top: 275px;
+    left: 185px;   
+}         
+div.h {
+
+
+    position:absolute;
+    top: 275px;
+    left: 275px;   
+}   
+div.i {
+
+
+    position:absolute;
+    top: 185px;
+    left: 5px;   
+}  
+div.j {
+
+
+    position:absolute;
+    top: 275px;
+    left: 5px;   
+} 
+div.k {
+
+
+    position:absolute;
+    top: 365px;
+    left: 5px;   
+} 
+div.l {
+
+
+    position:absolute;
+    top: 185px;
+    left: 95px;   
+}  
+div.m {
+
+
+    position:absolute;
+    top: 185px;
+    left: 185px;   
+}  
+    
 
 .navbar-nav{
     font-size: large;
     position: relative;
-    margin-top: -50%;
+    margin-top: -60%;
     margin-left: auto;
 }
 .image1{
@@ -143,8 +234,8 @@ nav{
 .design{
     display: block;
     position: absolute;
-    margin-top: 150px;
-    margin-left: 60%;
+    margin-top: -410px;
+    margin-left: 47%;
     width: 22%;
 }
 .nav-item{
@@ -204,14 +295,14 @@ nav{
         padding-left: 0%;
     }
     #design{
-        display: block;
+        display: none;
     }
     .design{
-        display: block;
+        display: none;
         position: absolute;
-        margin-top: 10%;
-        margin-left: 60%;
-        width: 20%;
+        margin-top: -410px;
+        margin-left: 47%;
+        width: 22%;
     }
     .nav-item{
         margin-left: 30px;
@@ -240,4 +331,96 @@ nav{
         font-family: 'Oswald', sans-serif;
         font-size: 36px;
     }
+    div.a {
+    
+    
+        position:absolute;
+        top: 5px;
+        left: 5px;   
+    }
+    div.b {
+    
+    
+        position:absolute;
+        top: 95px;
+        left: 95px;   
+    }
+    div.c {
+    
+    
+        position:absolute;
+        top: 5px;
+        left: 95px;   
+    } 
+    div.d {
+    
+    
+        position:absolute;
+        top: 5px;
+        left: 275px;   
+    }  
+    div.e {
+    
+    
+        position:absolute;
+        top: 95px;
+        left: 275px;   
+    }   
+    div.f {
+    
+    
+        position:absolute;
+        top: 275px;
+        left: 95px;   
+    }  
+    div.g {
+    
+    
+        position:absolute;
+        top: 275px;
+        left: 185px;   
+    }         
+    div.h {
+    
+    
+        position:absolute;
+        top: 275px;
+        left: 275px;   
+    }   
+    div.i {
+    
+    
+        position:absolute;
+        top: 185px;
+        left: 5px;   
+    }  
+    div.j {
+    
+    
+        position:absolute;
+        top: 275px;
+        left: 5px;   
+    } 
+    div.k {
+    
+    
+        position:absolute;
+        top: 365px;
+        left: 5px;   
+    } 
+    div.l {
+    
+    
+        position:absolute;
+        top: 185px;
+        left: 95px;   
+    }  
+    div.m {
+    
+    
+        position:absolute;
+        top: 185px;
+        left: 185px;   
+    }  
+        
 }
