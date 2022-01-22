@@ -93,9 +93,9 @@
     top: 0;
     z-index: 1;
     animation: Circle 12s linear 1s infinite;
-    width: 50%;
-    
-    margin-left: -30px;
+    width: 900px;
+    height: 900px;
+    margin-left: -140px;
     margin-top: 10px;
     
 }
@@ -222,7 +222,7 @@ div.m {
         
         position: absolute;
         top: 5%;
-        left: 40%;
+        left: 50%;
 }
 .image1{
     margin-top: -7%;
@@ -237,7 +237,7 @@ div.m {
     display: block;
     position: absolute;
     margin-top: -410px;
-    margin-left: 47%;
+    left: 760px;
     width: 22%;
 }
 .nav-item{
@@ -251,8 +251,8 @@ div.m {
         top: 0;
         z-index: 1;
         animation: Circle 12s linear infinite;
-        width: 700px;
-        height: 700px;
+        width: 696px;
+        height: 696px;
         margin-left: -140px;
         margin-top: 10px;
         
@@ -291,7 +291,7 @@ div.m {
         
         position: absolute;
         top: 5%;
-        left: 40%;
+        left: 50%;
     }
     .image1{
         margin-top: -7%;
@@ -306,7 +306,7 @@ div.m {
         display: block;
         position: absolute;
         top: 18%;
-        margin-left: 51.3%;
+        left: 550px;
         width: 5%;
         height: 5%;
     }
