@@ -31,7 +31,7 @@
         
     } */
     #brand{
-        margin-top: 7%;
+        margin-top: 9%;
         margin-left: 15%;
         margin-bottom: 10%;
         width: 50%;
@@ -61,11 +61,12 @@
    
         position: absolute;
         
-        margin-left: 70%;
+        top: 20px;
+        right: 20px;
         
     }
     #navbarNav{
-        margin-top: 180px;
+       
         margin-left: 80%;
     }
     .design{
@@ -107,7 +108,7 @@ nav{
     font-family: 'Nunito', sans-serif;
     font-family: 'Oswald', sans-serif;
     background-color: rgba(47, 54, 106, 0.95);
-    border-bottom-left-radius: 500px 490px;
+    border-bottom-left-radius: 300px 290px;
     height: max-content;
     width: 100%;
 }
@@ -218,9 +219,10 @@ div.m {
 
 .navbar-nav{
     font-size: large;
-    position: relative;
-    margin-top: -60%;
-    margin-left: auto;
+        
+        position: absolute;
+        top: 5%;
+        left: 40%;
 }
 .image1{
     margin-top: -7%;
@@ -249,9 +251,9 @@ div.m {
         top: 0;
         z-index: 1;
         animation: Circle 12s linear infinite;
-        width: 50%;
-        
-        margin-left: -30px;
+        width: 700px;
+        height: 700px;
+        margin-left: -140px;
         margin-top: 10px;
         
     }
@@ -264,29 +266,32 @@ div.m {
         font-family: 'Nunito', sans-serif;
         font-family: 'Oswald', sans-serif;
         background-color: rgba(47, 54, 106, 0.95);
-        border-bottom-left-radius: 500px 490px;
+        border-bottom-left-radius: 400px 400px;
         height: max-content;
         width: 100%;
     }
     .navbar-brand{
         position: relative;
-        margin-top: 10%;
-        margin-left: auto;
+        margin-top: 16%;
+        margin-bottom: 5%;
+        left: -4%;
         padding-left: 10%;
         margin-bottom: 10%;
        
     }
     #brand{
         
-        width: 70%;
+        width: 80%;
+        height: 50%;
     } 
     
     
     .navbar-nav{
         font-size: large;
-        position: relative;
-        margin-top: -70%;
-        margin-left: -4rem;
+        
+        position: absolute;
+        top: 5%;
+        left: 40%;
     }
     .image1{
         margin-top: -7%;
@@ -298,11 +303,12 @@ div.m {
         display: none;
     }
     .design{
-        display: none;
+        display: block;
         position: absolute;
-        margin-top: -410px;
-        margin-left: 47%;
-        width: 22%;
+        top: 18%;
+        margin-left: 51.3%;
+        width: 5%;
+        height: 5%;
     }
     .nav-item{
         margin-left: 30px;
