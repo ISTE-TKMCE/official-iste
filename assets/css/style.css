@@ -2,6 +2,33 @@
     overflow-x: hidden;
     background-color: #E5E5E5;
 }
+.page-footer h6{
+    color: #ffffff;
+    
+    
+    text-align: start;
+}
+.footer-copyright{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+.page-footer button{
+    width: 30px;
+    height: 30px;
+}
+.page-footer h5
+{
+    color: #ffffff;
+}
+.page-footer{
+    font-family: serif;
+    height: 100%;
+    width: auto;
+    margin-top: 45px;
+    background: rgb(35, 20, 77);
+    
+}
+
 @media screen and (max-width:300px) {
     #iste_logo{
         position: absolute;

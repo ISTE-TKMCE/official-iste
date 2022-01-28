@@ -1,8 +1,9 @@
-html, .footer {
-    overflow-x: hidden !important;width: 100vw !important;
-    margin: 0;
+.footer {
     
-    position: absolute;
+    width: 100% !important;
+    margin: 0;
+   
+    position: relative;
     top: 0;
     left: 0;
 }
@@ -48,6 +49,9 @@ html, .footer {
     background: #231261 !important;
     
 }
+.footer>.container{
+    height: max-content;
+}
 .main{
     margin-top: 170px;
     margin-left: 0px;
@@ -56,18 +60,19 @@ html, .footer {
     
     text-align: center;
     position: relative;
-    cursor: ;
+    
    
 }
 .main1{
     margin-top: 200px;
     margin-left: 0px;
-    width: 250px;
+    margin-bottom: 50px;
+    width: 80%;
     height: 50px;
     
     text-align: center;
     position: relative;
-    cursor: ;
+    
    
 }
 .service{
@@ -100,11 +105,7 @@ html, .footer {
     margin: 10px auto;
     position: relative;
 }
-*{
-    margin: 0;
-    padding: 0;
-    font-family: serif;
-}
+
 .about h6{
     color: #ffffff;
     text-align: start;
@@ -113,17 +114,14 @@ html, .footer {
     color: #ffffff;
     text-align: start;
 }
-button{
-    width: 30px;
-    height: 30px;
-}
+
 .mail h5
 {
     color: #ffffff;
 }
 
 .contactus{
-    height: 130px;
+    height: max-content;
     width: auto;
     margin-top: 45px;
     background: rgb(35, 20, 77);
@@ -137,7 +135,7 @@ button{
     
     text-align: start;
     position: relative;
-    cursor: ;
+    
    
 }
 .mail{
