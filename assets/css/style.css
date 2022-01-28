@@ -60,7 +60,7 @@
         margin-top: 9%;
         margin-left: 15%;
         margin-bottom: 10%;
-        width: 50%;
+        width: 55%;
     } 
     
     .navbar-nav{
@@ -96,8 +96,8 @@
    
         position: absolute;
         
-        top: 20px;
-        right: 20px;
+        top: 10px;
+        right: 10px;
         
     }
     #navbarNav{
@@ -105,16 +105,90 @@
         margin-left: 80%;
     }
     .design{
-        display: none;
+        display: block;
         position: absolute;
-        margin-top: 15%;
-        margin-bottom: -40%;
-        margin-left: 40%;
-        width: 20%;
+        top: 37%;
+        left: 55%;
+        width: 22%;
     }
-    #design{
-        display: none;
+    div.a {
+    
+    
+        position:absolute;
+        
     }
+    div.b {
+    
+    
+        position:absolute;
+         
+    }
+    div.c {
+    
+    
+        position:absolute;
+       
+    } 
+    div.d {
+    
+    
+        position:absolute;
+         
+    }  
+    div.e {
+    
+    
+        position:absolute;
+         
+    }   
+    div.f {
+    
+    
+        position:absolute;
+          
+    }  
+    div.g {
+    
+    
+        position:absolute;
+        
+    }         
+    div.h {
+    
+    
+        position:absolute;
+         
+    }   
+    div.i {
+    
+    
+        position:absolute;
+         
+    }  
+    div.j {
+    
+    
+        position:absolute;
+         
+    } 
+    div.k {
+    
+    
+        position:absolute;
+         
+    } 
+    div.l {
+    
+    
+        position:absolute;
+        
+    }  
+    div.m {
+    
+    
+        position:absolute;
+       
+    }  
 }
 @media screen and (min-width:300px) and (max-width:600px) {
     #iste_logo{
@@ -122,8 +196,8 @@
         top: 0;
         z-index: 0;
         animation: Circle 12s linear infinite;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         margin-left: -60px;
         margin-top: 10px;
         
@@ -144,8 +218,8 @@
         
     } */
     #brand{
-        margin-top: 9%;
-        margin-left: 50px;
+        margin-top: 10%;
+        margin-left: 25px;
         margin-bottom: 10%;
         width: 50%;
     } 
@@ -192,16 +266,90 @@
         margin-left: 80%;
     }
     .design{
-        display: none;
+        display: block;
         position: absolute;
-        margin-top: 15%;
-        margin-bottom: -40%;
-        margin-left: 40%;
-        width: 20%;
+        top: 30%;
+        left: 55%;
+        width: 22%;
     }
-    #design{
-        display: none;
+    div.a {
+    
+    
+        position:absolute;
+        
     }
+    div.b {
+    
+    
+        position:absolute;
+         
+    }
+    div.c {
+    
+    
+        position:absolute;
+       
+    } 
+    div.d {
+    
+    
+        position:absolute;
+         
+    }  
+    div.e {
+    
+    
+        position:absolute;
+         
+    }   
+    div.f {
+    
+    
+        position:absolute;
+          
+    }  
+    div.g {
+    
+    
+        position:absolute;
+        
+    }         
+    div.h {
+    
+    
+        position:absolute;
+         
+    }   
+    div.i {
+    
+    
+        position:absolute;
+         
+    }  
+    div.j {
+    
+    
+        position:absolute;
+         
+    } 
+    div.k {
+    
+    
+        position:absolute;
+         
+    } 
+    div.l {
+    
+    
+        position:absolute;
+        
+    }  
+    div.m {
+    
+    
+        position:absolute;
+       
+    }  
 }
 
 @media screen and (min-width:600px) and (max-width:992px) {
@@ -280,17 +428,90 @@
         margin-left: 80%;
     }
     .design{
-        
-        display: none;
+        display: block;
         position: absolute;
-        top: 18%;
-        left: 550px;
-        width: 5%;
-        height: 5%;
+        top: 20%;
+        left: 60%;
+        width: 22%;
     }
-    #design{
-        display: none;
+    div.a {
+    
+    
+        position:absolute;
+        
     }
+    div.b {
+    
+    
+        position:absolute;
+         
+    }
+    div.c {
+    
+    
+        position:absolute;
+       
+    } 
+    div.d {
+    
+    
+        position:absolute;
+         
+    }  
+    div.e {
+    
+    
+        position:absolute;
+         
+    }   
+    div.f {
+    
+    
+        position:absolute;
+          
+    }  
+    div.g {
+    
+    
+        position:absolute;
+        
+    }         
+    div.h {
+    
+    
+        position:absolute;
+         
+    }   
+    div.i {
+    
+    
+        position:absolute;
+         
+    }  
+    div.j {
+    
+    
+        position:absolute;
+         
+    } 
+    div.k {
+    
+    
+        position:absolute;
+         
+    } 
+    div.l {
+    
+    
+        position:absolute;
+        
+    }  
+    div.m {
+    
+    
+        position:absolute;
+       
+    }  
 }
 
 @keyframes Circle {
@@ -347,92 +568,79 @@ div.a {
     
     
     position:absolute;
-    top: 5px;
-    left: 5px;   
+    
 }
 div.b {
 
 
     position:absolute;
-    top: 95px;
-    left: 95px;   
+     
 }
 div.c {
 
 
     position:absolute;
-    top: 5px;
-    left: 95px;   
+   
 } 
 div.d {
 
 
     position:absolute;
-    top: 5px;
-    left: 275px;   
+     
 }  
 div.e {
 
 
     position:absolute;
-    top: 95px;
-    left: 275px;   
+     
 }   
 div.f {
 
 
     position:absolute;
-    top: 275px;
-    left: 95px;   
+      
 }  
 div.g {
 
 
     position:absolute;
-    top: 275px;
-    left: 185px;   
+    
 }         
 div.h {
 
 
     position:absolute;
-    top: 275px;
-    left: 275px;   
+     
 }   
 div.i {
 
 
     position:absolute;
-    top: 185px;
-    left: 5px;   
+     
 }  
 div.j {
 
 
     position:absolute;
-    top: 275px;
-    left: 5px;   
+     
 } 
 div.k {
 
 
     position:absolute;
-    top: 365px;
-    left: 5px;   
+     
 } 
 div.l {
 
 
     position:absolute;
-    top: 185px;
-    left: 95px;   
+    
 }  
 div.m {
 
 
     position:absolute;
-    top: 185px;
-    left: 185px;   
+   
 }  
     
 
@@ -449,13 +657,11 @@ div.m {
     width: 10%;
     padding-left: 0%;
 }
-#design{
-    display: block;
-}
+
 .design{
     display: block;
     position: absolute;
-    margin-top: -410px;
+    top: 15%;
     left: 760px;
     width: 22%;
 }
@@ -518,14 +724,12 @@ div.m {
         width: 10%;
         padding-left: 0%;
     }
-    #design{
-        display: none;
-    }
+    
     .design{
         display: block;
         position: absolute;
-        top: 18%;
-        left: 550px;
+        top: 25%;
+        left: 60%;
         width: 5%;
         height: 5%;
     }
