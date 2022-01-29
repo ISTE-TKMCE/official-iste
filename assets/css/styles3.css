@@ -1,9 +1,6 @@
 
   
-  h1{
-    font-family: 'poppins';
-    font-size: 48px;
-    color: #000;
+  .heading h1{
     margin-bottom: 25px;
     text-align: center;
   }
@@ -97,7 +94,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
     height: auto;
     background-color: #FFFFFF;
 }

@@ -8,6 +8,33 @@
     
     text-align: start;
 }
+.heading-font{
+font-family: 'Lato', sans-serif;
+}
+
+.content-font{
+    font-family: 'Crimson Pro', serif;
+
+}
+
+.fntsz-1{
+    font-size:clamp(40px, 41px,48px);
+}
+.fntsz-2{
+    font-size:clamp(34px, 35px,38px);
+}
+.fntsz-3{
+    font-size:clamp(21px, 22px,24px);
+}
+.fntsz-4{
+    font-size:clamp(19px, 20px,21px);
+}
+.fntsz-5{
+    font-size:clamp(16px, 17px, 18px);
+}
+.fntsz-6{
+    font-size:16px;
+}
 #member_img{
     border-radius: 50%;
 }
@@ -32,6 +59,11 @@
     
 }
 
+.gap-seperator{
+    height:100px;
+    width:100%;
+}
+
 @media screen and (max-width:300px) {
     #iste_logo{
         position: absolute;
@@ -45,8 +77,7 @@
         
     }  
     .navbar{
-        font-family: 'Nunito', sans-serif;
-        font-family: 'Oswald', sans-serif;
+   
         background-color: rgba(47, 54, 106, 0.95);
         border-bottom-left-radius: 150px 100px;
         height: 100%;
@@ -73,13 +104,17 @@
         /* margin-top: -260px; */
     }
     .crd{
+        /* height:320px; */
+        /* padding:5px !important;
+        padding-top:10px !important; */
         z-index: 1;
         color: black;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        
     }
     .crd:hover {
         color: #5987C5;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        box-shadow: none !important;
+        transition:all 0.6s;
       }
     /* .image1{
         
@@ -115,7 +150,6 @@
         width: 22%;
     }
     div.a {
-    
     
         position:absolute;
         
@@ -206,8 +240,7 @@
         
     }  
     .navbar{
-        font-family: 'Nunito', sans-serif;
-        font-family: 'Oswald', sans-serif;
+   
         background-color: rgba(47, 54, 106, 0.95);
         border-bottom-left-radius: 150px 100px;
         height: 100%;
@@ -234,13 +267,17 @@
         /* margin-top: -260px; */
     }
     .crd{
+        /* height:320px; */
+        /* padding:5px !important;
+        padding-top:10px !important; */
         z-index: 1;
         color: black;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        
     }
     .crd:hover {
         color: #5987C5;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        box-shadow: none !important;
+        transition:all 0.6s;
       }
     /* .image1{
         
@@ -369,8 +406,7 @@
         
     }  
     .navbar{
-        font-family: 'Nunito', sans-serif;
-        font-family: 'Oswald', sans-serif;
+   
         background-color: rgba(47, 54, 106, 0.95);
         border-bottom-left-radius: 150px 100px;
         height: 100%;
@@ -397,13 +433,17 @@
         /* margin-top: -260px; */
     }
     .crd{
+        /* height:320px; */
+        /* padding:5px !important;
+        padding-top:10px !important; */
         z-index: 1;
         color: black;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        
     }
     .crd:hover {
         color: #5987C5;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        box-shadow: none !important;
+        transition:all 0.6s;
       }
     /* .image1{
         
@@ -538,19 +578,19 @@
 .crd{
     z-index: 1;
     color: black;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
 }
 .crd:hover {
     color: #5987C5;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: none;
+    transition:all 0.6s;
   }
 nav{
     height: max-content;
 }
 
 .navbar{
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Oswald', sans-serif;
+  
     background-color: rgba(47, 54, 106, 0.95);
     border-bottom-left-radius: 300px 290px;
     height: max-content;
@@ -692,8 +732,7 @@ div.m {
     }
     
     .navbar{
-        font-family: 'Nunito', sans-serif;
-        font-family: 'Oswald', sans-serif;
+   
         background-color: rgba(47, 54, 106, 0.95);
         border-bottom-left-radius: 400px 400px;
         height: max-content;
@@ -756,14 +795,7 @@ div.m {
        
         
     }
-    .card-text{
-        font-family: 'Poppins', sans-serif;
-        font-size: 24px;
-    }
-    .card-title{
-        font-family: 'Oswald', sans-serif;
-        font-size: 36px;
-    }
+   
     div.a {
     
     
@@ -856,12 +888,16 @@ div.m {
         left: 185px;   
     }  
     .crd{
+        /* height:320px; */
+        /* padding:5px !important;
+        padding-top:10px !important; */
         z-index: 1;
         color: black;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        
     }
     .crd:hover {
         color: #5987C5;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        box-shadow: none !important;
+        transition:all 0.6s;
       }    
 }
