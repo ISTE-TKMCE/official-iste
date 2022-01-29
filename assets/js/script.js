@@ -1,4 +1,5 @@
 const width=window.innerWidth
+
 const height=window.innerHeight
 a=width*5.65/100*0.0545 //5
 ab=width*5.65/100 //95
@@ -6,6 +7,9 @@ abc=width*5.65/100*1.95 //185
 abcd=width*5.65/100*2.9 //275
 abcde=width*5.65/100*3.84 //365
 function setsize(){
+    window.onresize=function(event){
+        document.location.reload(true)
+    }
 var image1=document.getElementById('a')
 image1.style.width=(width*5.65/100*1.21).toString()+"px"
 var image2=document.getElementById('b')
@@ -77,6 +81,7 @@ function animateDiva(){
               );
             
             }
+            
 }
 function animateDivc(){
     var newq = [[a,ab],[a,ab],[a,abc],[ab,abc],[abc,abc],[ab,abc],[ab,abcd]];
@@ -180,6 +185,7 @@ function animateDivm(){
                    
 setInterval(function(){
     animateDiva()
+    
     setsize()
 },200)
 setInterval(function(){
@@ -218,3 +224,4 @@ setInterval(function(){
 setInterval(function(){
     animateDivm()
 },200) 
+

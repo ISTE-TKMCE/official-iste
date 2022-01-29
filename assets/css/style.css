@@ -8,6 +8,9 @@
     
     text-align: start;
 }
+#member_img{
+    border-radius: 50%;
+}
 .footer-copyright{
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
@@ -265,6 +268,7 @@
        
         margin-left: 80%;
     }
+    
     .design{
         display: block;
         position: absolute;
