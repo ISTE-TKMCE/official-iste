@@ -38,7 +38,7 @@
 .service1{
     
     background: #231261;
-    background-color: rgba(47, 54, 106, 0.95);
+    
 
     text-align: center;
     position: absolute;
@@ -75,6 +75,7 @@
     
    
 }
+
 .service{
     border-style: solid;
     border-color: white;

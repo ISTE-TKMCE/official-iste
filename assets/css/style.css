@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .body{
     overflow-x: hidden;
     background-color: #E5E5E5;
@@ -38,6 +41,11 @@ font-family: 'Lato', sans-serif;
 #member_img{
     border-radius: 50%;
 }
+.crd:hover {
+    color: #5987C5;
+    box-shadow: none !important;
+    transition:all 0.6s;
+  }
 .footer-copyright{
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
