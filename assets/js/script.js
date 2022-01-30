@@ -7,9 +7,18 @@ abc=width*5.65/100*1.95 //185
 abcd=width*5.65/100*2.9 //275
 abcde=width*5.65/100*3.84 //365
 function setsize(){
-    window.onresize=function(event){
-        document.location.reload(true)
-    }
+    var lastWidth = $(window).width();
+
+    $(window).resize(function(){
+       
+       if($(window).width()!=lastWidth){
+           
+          location.reload(true)
+          lastWidth = $(window).width();
+       }
+    })    
+        
+    
 var image1=document.getElementById('a')
 image1.style.width=(width*5.65/100*1.21).toString()+"px"
 var image2=document.getElementById('b')
@@ -182,11 +191,16 @@ function animateDivm(){
             
             }
 }
-                   
+
+setInterval(function(){
+    setsize()
+    
+    
+},200)
 setInterval(function(){
     animateDiva()
     
-    setsize()
+    
 },200)
 setInterval(function(){
     animateDivb()
