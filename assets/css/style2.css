@@ -22,7 +22,10 @@
     border-radius: 90px 90px 90px 90px;
     box-shadow: 4px 4px 25px rgb(0, 0, 0, .29);
 }
-
+.gap-seperator{
+    height:100px;
+    width:100%;
+}
 /* .text-1>h1 {
     padding: auto;
     text-align: center;
@@ -103,6 +106,13 @@
     /* margin-left: 23px; */
     /* padding-left: 35px; */
 
+}
+.vikas-section .inner-container .img-1, .vikas-section .inner-container .img-2{
+    display:block;
+}
+.vikas-section .inner-container .text-1 .img-1, .vikas-section .inner-container .text-2 .img-2{
+    display:none;
+   
 }
 
 
@@ -193,6 +203,18 @@
     }
     .vikas-section{
         padding:10px;
+    }
+
+    .vikas-section .inner-container .img-1, .vikas-section .inner-container .img-2{
+        display:none;
+    }
+    .vikas-section .inner-container .text-1 .img-1, .vikas-section .inner-container .text-2 .img-2{
+        display:block;
+      margin-bottom:40px;
+    }
+
+    .gap-seperator{
+        height:25px;
     }
 
 }

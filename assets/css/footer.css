@@ -6,6 +6,7 @@
     position: relative;
     top: 0;
     left: 0;
+   background-color:#242c4c;
 }
 
 .service1 h1{
@@ -37,7 +38,7 @@
 } */
 .service1{
     
-    background: #231261;
+    /* background: #231261; */
     
 
     text-align: center;
@@ -47,15 +48,10 @@
 .row .mt-5{
     text-align: center;
 }
-.footer{
-    /* background-color: rgba(47, 54, 106); */
 
-    background: #231261 !important;
-    align-items: center;
-    
-}
 .footer>.container{
     height: max-content;
+    background-color:#242c54;
     
 }
 .main{
@@ -80,7 +76,7 @@
     border-style: solid;
     border-color: white;
     display: block;
-    background: #231261;
+    /* background: #231261; */
     
     border-radius: 10px;
     position: absolute;
@@ -90,8 +86,14 @@
         display: block;
         
         border-radius: 10px;
-        position: absolute;
+        /* position: absolute; */
         bottom: 0;
+        
+}
+
+.logo-gear-final-footer img{
+    margin-top:-400px;
+    margin-left:30px;
 }
 .service-logo{
     height: 100px;
@@ -99,9 +101,10 @@
    
     border-radius: 0%;
     
-    margin: -90px auto 0;
-    background: #231261;
-    border: 1px solid #231261;
+    margin: -80px auto 0;
+    background-color:#242c54;
+
+    border: 1px solid #242c54;
 }
 .service-logo img{
     width: 50px;
@@ -109,7 +112,7 @@
     margin-left: 2px;
 }
 .service h4{
-    background: #231261;
+    /* background: #231261; */
     margin: 10px auto;
     position: relative;
 }
@@ -132,7 +135,7 @@
     height: max-content;
     width: auto;
     margin-top: 45px;
-    background: rgb(35, 20, 77);
+    background: #242c4c;
     
 }
 .main3{
@@ -140,7 +143,6 @@
     margin-left: 160px;
     width: 250px;
     height: 50px;
-    
     text-align: start;
     position: relative;
     
@@ -176,6 +178,6 @@ input[type=text] {
       display:none;
   }
   .main1{
-      margin-top:150px;
+      margin-top:200px;
   }
 }
