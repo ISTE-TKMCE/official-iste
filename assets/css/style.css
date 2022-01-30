@@ -150,6 +150,9 @@ font-family: 'Lato', sans-serif;
        
         margin-left: 80%;
     }
+    #gear{
+        display: none;
+    }
     .design{
         display: block;
         position: absolute;
@@ -246,7 +249,10 @@ font-family: 'Lato', sans-serif;
         margin-left: -60px;
         margin-top: 10px;
         
-    }  
+    } 
+    #gear{
+        display: none;
+    } 
     .navbar{
    
         background-color: rgba(47, 54, 106, 0.95);
@@ -413,6 +419,9 @@ font-family: 'Lato', sans-serif;
         margin-top: 10px;
         
     }  
+    #gear{
+        display: none;
+    }
     .navbar{
    
         background-color: rgba(47, 54, 106, 0.95);
