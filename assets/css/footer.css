@@ -50,6 +50,7 @@
 }
 
 .footer>.container{
+    
     height: max-content;
     background-color:#242c54;
     
@@ -96,12 +97,12 @@
     margin-left:30px;
 }
 .service-logo{
-    height: 100px;
+    height: 80px;
     width: 80px;
    
     border-radius: 0%;
     
-    margin: -80px auto 0;
+    margin: -80px auto 10px;
     background-color:#242c54;
 
     border: 1px solid #242c54;
@@ -111,9 +112,9 @@
     margin-top: 40px;
     margin-left: 2px;
 }
-.service h4{
+.service>h4{
     /* background: #231261; */
-    margin: 10px auto;
+    margin: 15px auto 10px;
     position: relative;
 }
 
@@ -173,6 +174,7 @@ input[type=text] {
     color: white;
 
 }
+
 @media screen and (max-width:540px){
   #gear{
       display:none;

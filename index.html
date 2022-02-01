@@ -265,7 +265,7 @@
 
 <section class="gap-seperator"></section>
 <div class="heading" id="gallery">
-<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">Upcoming events</h1>
+<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">Upcoming event</h1>
 
 </div>
 <div class="gallery mt-5" >
@@ -274,34 +274,34 @@
       <div class="glide__track" data-glide-el="track">
           
           <ul class="glide__slides">
-              <li class="glide__slide ">
+              <li class="glide__slide m">
                   <img src="assets/images/iste_tkmce_-20220129-0001.jpg" alt="">
               </li>
-              <li class="glide__slide">
+              <li class="glide__slide l">
                   <img src="assets/images/iste_tkmce_-20220129-0004.jpg" alt="">
               </li>
               <li class="glide__slide">
                   <img src="assets/images/iste_tkmce_-20220129-0005.jpg" alt="">
               </li>
-              <li class="glide__slide">
+              <li class="glide__slide l">
                   <img src="assets/images/iste_tkmce_-20220129-0008.jpg" alt="">
               </li>
-              <li class="glide__slide">
+              <li class="glide__slide l">
                   <img src="assets/images/iste_tkmce_-20220129-0012.jpg" alt="">
               </li>
-              <li class="glide__slide">
+              <li class="glide__slide l">
                 <img src="assets/images/iste_tkmce_-20220129-0019.jpg" alt="">
             </li>
-            <li class="glide__slide">
+            <li class="glide__slide l">
                 <img src="assets/images/iste_tkmce_-20220129-0022.jpg" alt="">
             </li>
-            <li class="glide__slide">
+            <li class="glide__slide l">
                 <img src="assets/images/iste_tkmce_-20220129-0043.jpg" alt="">
             </li>
-            <li class="glide__slide">
+            <li class="glide__slide l">
                 <img src="assets/images/iste_tkmce_-20220129-0044.jpg" alt="">
             </li>
-            <li class="glide__slide">
+            <li class="glide__slide l">
                 <img src="assets/images/iste_tkmce_-20220129-0045.jpg" alt="">
             </li>
           </ul>
@@ -449,37 +449,44 @@ new Glide(".images", {
 setInterval(function(){
     var array1=document.getElementsByClassName('glide__slide')
     var width=window.innerWidth
-    if(width<=800){
-    
-        if(array1[2].classList[1]=='glide__slide--active'){
-            var heading=document.getElementsByClassName('heading')
+    function setHeadingUp(){
+        console.log("reached here")
+        var heading=document.getElementsByClassName('heading')
             heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">Upcoming event<h1>`
+    }
+    function setHeadingPrev(){
+        
+        var heading=document.getElementsByClassName('heading')
+        heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">previous event<h1>`
+    }
+    setHeadingPrev()
+   for(var i=0;i<=array1.length;i++){
+    if(width<=800){
+        
+        if(array1[i].classList[2]=='glide__slide--active' && array1[i].classList[1]=='m'){
+            console.log(array1[i].classList[1])
+            setHeadingUp()
+            break  
+           
         }
-        else
-        {
-            var heading=document.getElementsByClassName('heading')
-            heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">previous event<h1>`
-        }
+        
     }
     else{
-        if(array1[5].classList[1]=='glide__slide--active'){
-            var heading=document.getElementsByClassName('heading')
-            heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">upcoming event<h1>`
+        if(array1[i].classList[2]=='glide__slide--active' && array1[i].classList[1]=='m'){
+            console.log(array1[i].classList[1])
+            setHeadingUp()
+            break 
         }
-  else
-        {
-            var heading=document.getElementsByClassName('heading')
-            heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">previous event<h1>`
-        }
-    }},200)
+  
+    }}},1000)
 
 
 </script>
 <!-- SAHAD -->
-<div class="footer">
-    <div class="container text-center">
+<div class="footer"  style="width: fit-content;">
+    <div class="container mt-4 text-center">
     
-        <div class="row  mt-5">
+        <div class="row mt-4">
             <div class="col-lg-4 col-md-6 mx-auto mt-4">
                 <div class="main w-100">
                     <div class="service1 mb-4 w-100">
@@ -492,7 +499,7 @@ setInterval(function(){
                         <div class="service text-md-center" >
                         
                             <div class="service-logo">
-                                <img src="assets/images/new3.png" alt="new letter" >
+                                <img src="assets/images/new3.png"  alt="new letter" >
                             </div>
                                 <h4 class="heading-font">NEWSLETTER</h4>
                                 <p class="content-font text-justify px-4">
@@ -509,7 +516,7 @@ setInterval(function(){
                         <div class="service-logo">
                             <img src="assets/images/server 2.png" alt="new letter" >
                         </div>
-                        <h4 class="heading-font">SERVER ACCESS</h4>
+                        <h4 class="heading-font p-2">SERVER ACCESS</h4>
                         <p class="content-font text-justify px-4">
                             Server access allows users to access and manage the actual system interfaces and files.
                         </p>
@@ -531,9 +538,9 @@ setInterval(function(){
                         <div class="service-logo mb-4 md-mb-0">
                             <img src="assets/images/copywriting 2.png" alt="new letter" >
                         </div>
-                        <h4 class="heading-font mt-4 p-2">ARTICLES</h4>
+                        <h4 class="heading-font p-2 md-p-2">ARTICLES</h4>
                         <p class="content-font text-justify px-4">
-                            Principled research papers dealing with theoretical, methodological, <br> empirical and application-related <br> aspects of technical education
+                            Principled research papers dealing with theoretical, methodological, empirical and application-related <br> aspects of technical education
                         </p>
                     </div>
             </div>
@@ -547,7 +554,7 @@ setInterval(function(){
                         <div class="service-logo">
                             <img src="assets/images/idea 2.png" alt="new letter" >
                         </div>
-                        <h4 class="heading-font">PROJECT <br> DEVELOPMENT</h4>
+                        <h4 class="heading-font p-2 md-p-0">PROJECT <br> DEVELOPMENT</h4>
                         <p class="content-font text-justify px-4">
                             Students who are doing project works which involve product development, fabrication, model studies, etc.
                         </p>
