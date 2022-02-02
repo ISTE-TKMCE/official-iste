@@ -1,12 +1,31 @@
 body{
     overflow-x: hidden;
-    background-color: #E5E5E5;
+    background-color: #c0c0c0;
 }
 .page-footer h6{
     color: #ffffff;
     
     
     text-align: start;
+}
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+   z-index: 1;
+}
+.navbar-brand:hover{
+    color: #fff;
+    text-shadow: 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #fff,
+                 0 0 55px #fff;
+                
+                 
+}
+
+
+.content-font{
+    font-family: 'Crimson Pro', serif;
+
 }
 .footer-copyright{
     background-color: rgba(0, 0, 0, 0.5);
@@ -135,7 +154,7 @@ body{
 
     .navbar{
         
-        font-family: 'Oswald', sans-serif;
+        
         background-color: rgba(47, 54, 106, 0.95);
         border-bottom-left-radius: 150px 100px;
         height: max-content;
@@ -270,7 +289,7 @@ body{
 
     .navbar{
         
-        font-family: 'Oswald', sans-serif;
+        /* font-family: 'Oswald', sans-serif; */
         background-color: rgba(47, 54, 106, 0.95);
         border-bottom-left-radius: 150px 100px;
         height: max-content;
@@ -387,7 +406,7 @@ body{
 #iste_logo{
     position: absolute;
     top: 0;
-    
+    z-index: 0;
     animation: Circle 12s linear 1s infinite;
     width: 900px;
     height: 900px;
@@ -403,7 +422,7 @@ nav{
 
 .navbar{
     
-    font-family: 'Oswald', sans-serif;
+    
     background-color: rgba(47, 54, 106, 0.95);
     border-bottom-left-radius: 300px 290px;
     height: max-content;
@@ -416,8 +435,10 @@ nav{
     margin-left: auto;
     padding-left: 6%;
     margin-bottom: 10%;
+    z-index: 1;
    
 }
+
 .quote{
     position: absolute;
     right: 15%;
@@ -433,7 +454,7 @@ nav{
   
 
 .navbar-nav{
-    font-size: large;
+    font-size: medium;
         
         position: absolute;
         top: 5%;
@@ -524,7 +545,7 @@ nav{
 
 .navbar{
     
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     background-color: rgba(47, 54, 106, 0.95);
     border-bottom-left-radius: 300px 290px;
     height: max-content;
@@ -554,7 +575,7 @@ nav{
 
     
     .navbar-nav{
-        font-size: large;
+        font-size: medium;
         
         position: absolute;
         top: 5%;
