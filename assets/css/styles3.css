@@ -74,6 +74,20 @@
     transform: scale(0);
      transition: all 0.5s ease;
   }
+  /* .team_member .member_img .social_media{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: rgba(0,0,0,0.65);
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+     transition: all 0.5s ease;
+  } */
   
   .team_member .member_img .social_media .item{
     margin: 0 10px;

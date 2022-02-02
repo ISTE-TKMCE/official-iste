@@ -131,7 +131,7 @@
     <div class="row mt-5 mx-4">
         <div class="col-lg-3 col-md-6 my-2">
             
-            <div class="crd shadow p-4 text-center my-4">
+            <div class="crd shadow p-4 text-center my-4 card-a">
                 
                 <img src="assets/images/aboutusicon.png" alt="" style="width:80px">
                 <br>
@@ -150,7 +150,7 @@
               </div>
         </div>
         <div class="col-lg-3 col-md-6 my-2">
-            <div class="crd shadow p-4 text-center my-4">
+            <div class="crd shadow p-4 text-center my-4 card-b">
                 <img src="assets/images/objectivesicon.png" alt="" style="width:80px">
                 <br>
 
@@ -166,7 +166,7 @@
               </div>
         </div>
         <div class="col-lg-3 col-md-6 my-2">
-            <div class="crd shadow text-center my-4 p-4">
+            <div class="crd shadow text-center my-4 p-4 card-c">
                 <img src="assets/images/eventsicon.png" alt="" style="width:80px">
                 <br>
 
@@ -182,7 +182,7 @@
               </div>
         </div>
         <div class="col-lg-3 col-md-6 my-2">
-            <div class="crd shadow p-3 text-center my-4">
+            <div class="crd shadow p-3 text-center my-4 card-d" >
                 <img src="assets/images/teamicon.png" alt="" style="width:80px">
                 <br>
 
@@ -200,9 +200,11 @@
         </div>
     </div>
 </div>
- 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
 
-<!-- VIKAS SECTION -->
+
+<!-- about us and objective SECTION -->
 
 <div class="vikas-section" id="aboutus">
 <div class="container">
@@ -318,7 +320,7 @@
 </div>
 <section class="gap-seperator"></section>
 
-<h1 class="heading-font fntsz-2 text-uppercase text-center">Our Team</h1>
+<h1 class="heading-font fntsz-2 text-uppercase text-center" id="teamheading">Our Team</h1>
 
 <div class="team">
   <div class="our_team">
@@ -450,7 +452,6 @@ setInterval(function(){
     var array1=document.getElementsByClassName('glide__slide')
     var width=window.innerWidth
     function setHeadingUp(){
-        console.log("reached here")
         var heading=document.getElementsByClassName('heading')
             heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">Upcoming event<h1>`
     }
@@ -464,7 +465,7 @@ setInterval(function(){
     if(width<=800){
         
         if(array1[i].classList[2]=='glide__slide--active' && array1[i].classList[1]=='m'){
-            console.log(array1[i].classList[1])
+            
             setHeadingUp()
             break  
            
@@ -473,7 +474,7 @@ setInterval(function(){
     }
     else{
         if(array1[i].classList[2]=='glide__slide--active' && array1[i].classList[1]=='m'){
-            console.log(array1[i].classList[1])
+            
             setHeadingUp()
             break 
         }
@@ -620,7 +621,20 @@ setInterval(function(){
           <a href="https://www.instagram.com/iste_tkmce_/"> @iste_tkmce_</a>
         </div>
 </div>
-
+<script>
+   
+    gsap.to('.card-a', {scrollTrigger:'.card-a' , y: -50, opacity:1, duration: 1,})
+    gsap.to('.card-b', {scrollTrigger:'.card-b' , y: -50, opacity:1, duration: 1,})
+    gsap.to('.card-c', {scrollTrigger:'.card-c' , y: -50, opacity:1, duration: 1,})
+    gsap.to('.card-d', {scrollTrigger:'.card-d' , y: -50, opacity:1, duration: 1,})
+    gsap.to('#aboutus', {scrollTrigger:'#aboutus' , y: -50, opacity:1, duration: 1,})
+    gsap.to('#gallery', {scrollTrigger:'#gallery' , y: -50, opacity:1, duration: 1,})
+    gsap.to('.gallery', {scrollTrigger:'.gallery' , y: -50, opacity:1, duration: 1,})
+    
+    gsap.to('#teamheading', {scrollTrigger:'#teamheading' , y: -50, opacity:1, duration: 1,})
+    gsap.to('.team .team-small-device-only', {scrollTrigger:'#teamheading' , y: -50, opacity:1, duration: 1,})
+    gsap.to('.team-small-device-only', {scrollTrigger:'#teamheading' , y: -50, opacity:1, duration: 1,})
+</script>
 
 
 
