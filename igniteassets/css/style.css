@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-color: #c0c0c0;
+    background-color: #121212;
 }
 .page-footer h6{
     color: #ffffff;
@@ -70,7 +70,7 @@ body{
 
     .navbar{
         
-        font-family: 'Oswald', sans-serif;
+        font-family: '', sans-serif;
         background-color: rgba(47, 54, 106, 0.95);
         border-bottom-left-radius: 150px 100px;
         height: max-content;
@@ -187,7 +187,7 @@ body{
         position: relative;
         margin-left: 50%;
         color: #E5E5E5;
-        font-family: 'Oswald', sans-serif;
+        font-family: '', sans-serif;
     }
     
     .navbar-nav{
@@ -260,11 +260,11 @@ body{
     border-top-right-radius: 100px 100px;
 }
 .card-body{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-size: large;
 }
 .card-title{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-size: large;
 }
 }
@@ -387,11 +387,11 @@ body{
     border-top-right-radius: 100px 100px;
 }
 .card-body{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-size: xx-large;
 }
 .card-title{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-size: xx-large;
 }
      
@@ -515,11 +515,11 @@ nav{
 
 
 .card-body{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-size: xx-large;
 }
 .card-title{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-size: xx-large;
 }
 }
@@ -631,11 +631,11 @@ nav{
     border-top-right-radius: 100px 100px;
 }
 .card-body{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-size: xx-large;
 }
 .card-title{
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-size: xx-large;
 }
     

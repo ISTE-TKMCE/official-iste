@@ -121,13 +121,11 @@
 
     </nav>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
-
 
 <!-- CARDS1 -->
 
 
-<div class="container-fluid mt-4">
+<div class="container-fluid mt-4" style="padding-top: 40px;">
     <div class="row mt-5 mx-4">
         <div class="col-lg-3 col-md-6 my-2">
             
@@ -626,17 +624,51 @@ setInterval(function(){
 </div>
 <script>
    
-    gsap.to('.card-a', {scrollTrigger:'.card-a' , y: -50, opacity:1, duration: 1,})
-    gsap.to('.card-b', {scrollTrigger:'.card-b' , y: -50, opacity:1, duration: 1,})
-    gsap.to('.card-c', {scrollTrigger:'.card-c' , y: -50, opacity:1, duration: 1,})
-    gsap.to('.card-d', {scrollTrigger:'.card-d' , y: -50, opacity:1, duration: 1,})
-    gsap.to('#aboutus', {scrollTrigger:'#aboutus' , y: -50, opacity:1, duration: 1,})
-    gsap.to('#gallery', {scrollTrigger:'#gallery' , y: -50, opacity:1, duration: 1,})
-    gsap.to('.gallery', {scrollTrigger:'.gallery' , y: -50, opacity:1, duration: 1,})
-    gsap.to('.footer>.container', {scrollTrigger:'.footer' , y: -50, opacity:1, duration: 1,})
-    gsap.to('#teamheading', {scrollTrigger:'#teamheading' , y: -50, opacity:1, duration: 1,})
-    gsap.to('.team', {scrollTrigger:'#teamheading' , y: -50, opacity:1, duration: 1,})
-    gsap.to('.team-small-device-only', {scrollTrigger:'#teamheading' , y: -50, opacity:1, duration: 1,})
+    gsap.to('.card-a', {scrollTrigger:{
+        trigger:'.card-a',
+        
+        toggleActions: "restart none none none"
+    } , y: -50, opacity:1, duration: 1,})
+    gsap.to('.card-b', {scrollTrigger:{
+        trigger:'.card-b',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('.card-c', {scrollTrigger:{
+        trigger:'.card-c',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('.card-d', {scrollTrigger:{
+        trigger:'.card-d',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('#aboutus', {scrollTrigger:{
+        trigger:'#aboutus',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('#gallery', {scrollTrigger:{
+        trigger:'#gallery',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('.gallery', {scrollTrigger:{
+        trigger:'#gallery',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('.footer>.container', {scrollTrigger:{
+        trigger:'.footer',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('#teamheading', {scrollTrigger:{
+        trigger:'#teamheading',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('.team', {scrollTrigger:{
+        trigger:'#teamheading',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
+    gsap.to('.team-small-device-only', {scrollTrigger:{
+        trigger:'#teamheading',
+        toggleActions: "restart none none none"
+    }, y: -50, opacity:1, duration: 1,})
 </script>
 
 
