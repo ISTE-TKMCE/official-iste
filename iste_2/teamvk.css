@@ -38,3 +38,13 @@ h4{
     font-family: 'Roboto',sans-serif;
     font-weight:bold;
 }
+
+@media only screen and (min-width: 1000px) {
+    
+    .ppl 
+    {
+        width: 50%;
+        margin-left: 25%;
+        
+    }
+}
