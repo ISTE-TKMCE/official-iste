@@ -16,11 +16,8 @@
     
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Oswald:wght@600&family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/glide.core.min.css">
-    <link rel="stylesheet" href="assets/css/glide.theme.min.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/styles3.css">
-    <link rel="stylesheet" href="assets/css/style2.css">
+    
+    
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;1,400&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
     <title>Home</title>
@@ -51,7 +48,18 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/official-iste/ignite.html">IGNITE</a>
-                        </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          EXECOM
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="http://student.istetkmce.in/login.php">LOGIN</a>
                     </li>
@@ -261,7 +269,7 @@
 
 </div>
 
-<!-- NOOHA SECTION -->
+<!-- Events SECTION -->
 
 <section class="gap-seperator"></section>
 <div class="heading" id="gallery">
@@ -316,7 +324,66 @@
   
 
 </div>
+<script>
+
+    new Glide(".images", {
+        type: 'carousel',
+        perView: 3,
+        focusAt: 'center',
+        gap: 20,
+        rewind: true,
+        swipeThreshold: 50,
+        autoplay: 5000,
+        dragThreshold: 120,
+        startAt:0,
+        perTouch: 1,
+        rewind: true,
+        animationDuration: 400,
+        breakpoints:
+        {
+            800: {
+                perView: 1.4
+            }
+            }
+    }).mount()
+    setInterval(function(){
+        var array1=document.getElementsByClassName('glide__slide')
+        var width=window.innerWidth
+        function setHeadingUp(){
+            var heading=document.getElementsByClassName('heading')
+                heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">Upcoming event<h1>`
+        }
+        function setHeadingPrev(){
+            
+            var heading=document.getElementsByClassName('heading')
+            heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">previous event<h1>`
+        }
+        setHeadingPrev()
+       for(var i=0;i<=array1.length;i++){
+        if(width<=800){
+            
+            if(array1[i].classList[2]=='glide__slide--active' && array1[i].classList[1]=='m'){
+                
+                setHeadingUp()
+                break  
+               
+            }
+            
+        }
+        else{
+            if(array1[i].classList[2]=='glide__slide--active' && array1[i].classList[1]=='m'){
+                
+                setHeadingUp()
+                break 
+            }
+      
+        }}},1000)
+    
+    
+    </script>
 <section class="gap-seperator"></section>
+
+<!-- team section -->
 
 <h1 class="heading-font fntsz-2 text-uppercase text-center" id="teamheading">Our Team</h1>
 
@@ -421,66 +488,10 @@
         </div>
     </div>
 </div>
-<script>
 
 
 
 
-new Glide(".images", {
-    type: 'carousel',
-    perView: 3,
-    focusAt: 'center',
-    gap: 20,
-    rewind: true,
-    swipeThreshold: 50,
-    autoplay: 5000,
-    dragThreshold: 120,
-    startAt:0,
-    perTouch: 1,
-    rewind: true,
-    animationDuration: 400,
-    breakpoints:
-    {
-        800: {
-            perView: 1.4
-        }
-        }
-}).mount()
-setInterval(function(){
-    var array1=document.getElementsByClassName('glide__slide')
-    var width=window.innerWidth
-    function setHeadingUp(){
-        var heading=document.getElementsByClassName('heading')
-            heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">Upcoming event<h1>`
-    }
-    function setHeadingPrev(){
-        
-        var heading=document.getElementsByClassName('heading')
-        heading[0].innerHTML=`<h1 class="heading-font fntsz-2 mt-4 text-uppercase text-center mx-auto">previous event<h1>`
-    }
-    setHeadingPrev()
-   for(var i=0;i<=array1.length;i++){
-    if(width<=800){
-        
-        if(array1[i].classList[2]=='glide__slide--active' && array1[i].classList[1]=='m'){
-            
-            setHeadingUp()
-            break  
-           
-        }
-        
-    }
-    else{
-        if(array1[i].classList[2]=='glide__slide--active' && array1[i].classList[1]=='m'){
-            
-            setHeadingUp()
-            break 
-        }
-  
-    }}},1000)
-
-
-</script>
 <!-- SAHAD -->
 <div class="footer mb-0"  style="width: fit-content; padding-top: 100px;">
     <div class="container mt-4 text-center" >
@@ -588,9 +599,9 @@ setInterval(function(){
                     
                         <div class="col-6 text-center my-auto">
                             
-                        <a href="https://www.facebook.com/istetkm"><h6><img src="assets/images/facebook.png" alt=""> Facebook</h6></a> 
-                        <a href=" https://twitter.com/TkmceIste?t=zijuy6CS_5QQcTIehRGUrg&s=08"><h6><img src="assets/images/twitter.png" alt=""> Twitter</h6></a> 
-                        <a href="https://www.instagram.com/iste_tkmce_/"><h6><img src="assets/images/instagram2.png" alt="" width="25px" height="25px"> Instagram</h6></a>
+                        <a href="https://www.facebook.com/istetkm"><h6><img src="assets/images/facebook.png" class="mx-4" alt=""> Facebook</h6></a> 
+                        <a href=" https://twitter.com/TkmceIste?t=zijuy6CS_5QQcTIehRGUrg&s=08"><h6><img src="assets/images/twitter.png" class="mx-4" alt=""> Twitter</h6></a> 
+                        <a href="https://www.instagram.com/iste_tkmce_/"><h6><img src="assets/images/instagram2.png" class="mx-4" alt="" width="25px" height="25px"> Instagram</h6></a>
                         </div>
                     </div>
                </div>
@@ -598,7 +609,7 @@ setInterval(function(){
             </div>
             
             <div class="col-lg-4 my-2">
-                <h5 class="content-font mt-3 mb-3">Subscribe to our Newsletter</h5>
+                <h5 class="content-font mt-2 mb-3">Subscribe to our Newsletter</h5>
               <form class="input-group">
                 <input type="text" class="form-control form-control-sm" placeholder="Your email"
                   aria-label="Your email" aria-describedby="basic-addon2">
@@ -636,7 +647,7 @@ setInterval(function(){
     gsap.to('.card-c', {scrollTrigger:{
         trigger:'.card-c',
         toggleActions: "restart none none none"
-    }, y: -50, opacity:1, duration: 1,})
+    }, y: -50, opacity:1, duration: 1})
     gsap.to('.card-d', {scrollTrigger:{
         trigger:'.card-d',
         toggleActions: "restart none none none"
