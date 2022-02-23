@@ -5,6 +5,7 @@ html{
     overflow-x: hidden;
     background-color: #E5E5E5;
 }
+
 .page-footer h6{
     color: #ffffff;
     
@@ -1692,3 +1693,106 @@ input[type=text] {
       padding:0 !important;
     }
 }
+.contact-section .form-control{
+    background-color: #E5E5E5;
+    border: 1px solid  rgba(0,0,0,0.3);
+   
+  }
+  
+  
+  .contact>h2 {
+    font-family: 'Roboto', sans-serif;
+    
+    color: #101f1d;
+    font-size: 35px;
+    letter-spacing: 1.25px;
+    margin-top: 0;
+  }
+  /* .contact-fields {
+    padding: 40px 0 0;
+  }
+  .phone {
+    padding-top: 50px;
+  } */
+  
+  .phone a,
+  .email a,
+  .location a {
+    color: #269694;
+    font-size:18px;
+  }
+  /* .contact-h2 {
+    color: #269694;
+    padding-top:20px;
+  }
+  .contact-fields .form-group {
+    margin-bottom: 35px;
+  }
+  .contact-info {
+    margin-top: -40px;
+  } */
+  
+  /* .location a.btn.btn-accent {
+    padding: 12px 26px 10px;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  .location a.btn.btn-accent img {
+    margin-right: 20px;
+  }
+  .location hr {
+    margin-bottom: 10px;
+  } */
+  .btn {
+    font-size: 15px;
+    padding: 22px 46px 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+    position: relative;
+    letter-spacing: 0.3px;
+  }
+  .btn.btn-accent {
+    background: #2fbfbc;
+    color: white;
+  }
+  .btn.btn-accent:hover {
+    background: #269694;
+  }
+  
+  @media screen and (min-width: 980px) {
+    .contact-info {
+      padding-left: 110px;
+    }
+  }
+  .contact-email{
+    padding-bottom: 5px;
+  }
+  .email-icon
+  {
+    height: 25px;
+    width: 25px;
+    background: #2fbfbc;
+    
+    
+  }
+  .phone-icon
+  {
+    height: 25px;
+    width: 25px;
+    
+    background: #2fbfbc;
+    
+  }
+  .icon
+  {
+    background: #2fbfbc;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+  }
