@@ -133,12 +133,11 @@
 
 
 <div class="container-fluid mt-4" style="padding-top: 40px;">
-    <div class="row mt-5 mx-4">
-        <div class="col-lg-3 col-md-6 my-2">
+    <div class="card-deck mt-5 mx-4">
             
-            <div class="crd shadow p-4 text-center my-4 card-a">
+            <div class="card shadow p-4 text-center my-4 card-a">
                 
-                <img src="assets/images/aboutusicon.png" alt="" style="width:80px">
+                <img class="mx-auto"src="assets/images/aboutusicon.png" alt="" style="width:80px">
                 <br>
 
                 <div class="container mt-3">
@@ -146,17 +145,15 @@
                   <h4 class="heading-font fntsz-3"><b>ABOUT US</b></h4>
                 </div>
                 <br>
-                <div class="card-text text-left content-font fntsz-5">
+                <div class="card-text text-justify content-font fntsz-5">
                   <p> We aid and contribute to production, development of  professional engineers, technicians by providing guidance to students.
                       
                   </p>
                 </div>
                 </div>
               </div>
-        </div>
-        <div class="col-lg-3 col-md-6 my-2">
-            <div class="crd shadow p-4 text-center my-4 card-b">
-                <img src="assets/images/objectivesicon.png" alt="" style="width:80px">
+            <div class="card shadow p-4 text-center my-4 card-b">
+                <img class="mx-auto"src="assets/images/objectivesicon.png" alt="" style="width:80px">
                 <br>
 
                 <div class="container mt-3">
@@ -164,15 +161,13 @@
                   <h4 class="heading-font fntsz-3"><b>OBJECTIVES</b></h4>
                 </div>
                 <br>
-                <div class="card-text text-left content-font fntsz-5">
-                  <p>We aim at  improving the technical skills, personality and leadership traits  of the students so that they can achieve their full potential.</p>
+                <div class="card-text text-justify content-font fntsz-5">
+                  <p>We aim at improving technical skills,personality and leadership traits  of the students so that they can achieve their full potential.</p>
                 </div>
                 </div>
               </div>
-        </div>
-        <div class="col-lg-3 col-md-6 my-2">
-            <div class="crd shadow text-center my-4 p-4 card-c">
-                <img src="assets/images/eventsicon.png" alt="" style="width:80px">
+            <div class="card shadow text-center my-4 p-4 card-c">
+                <img class="mx-auto"src="assets/images/eventsicon.png" alt="" style="width:80px">
                 <br>
 
                 <div class="container mt-3">
@@ -180,15 +175,13 @@
                   <h4 class="heading-font fntsz-3"><b>EVENTS</b></h4>
                 </div>
                 <br>
-                <div class="card-text text-left content-font fntsz-5">
+                <div class="card-text text-justify content-font fntsz-5">
                   <p>We conduct both tech and non-tech events beneficial to the students including tech fests, seminars and other engaging events.</p>
                 </div>
                 </div>
               </div>
-        </div>
-        <div class="col-lg-3 col-md-6 my-2">
-            <div class="crd shadow p-3 text-center my-4 card-d" >
-                <img src="assets/images/teamicon.png" alt="" style="width:80px">
+            <div class="card shadow p-3 text-center my-4 card-d" >
+                <img class="mx-auto"src="assets/images/teamicon.png" alt="" style="width:80px">
                 <br>
 
                 <div class="container mt-3">
@@ -196,13 +189,12 @@
                   <h4 class="heading-font fntsz-3"><b>TEAM ISTE</b></h4>
                 </div>
                 <br>
-                <div class="card-text text-left content-font fntsz-5">
+                <div class="card-text text-justify content-font fntsz-5">
                   <p>We have a heedful team of  upbeat and energetic members  brimming with vitality and passion.</p>
                   <br>
                 </div>
                 </div>
               </div>
-        </div>
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
@@ -339,10 +331,18 @@
         rewind: true,
         animationDuration: 400,
         breakpoints:
-        {
+        {1920:{
+            perView: 4
+
+        },
+        1366: {
+            perView: 3
+            
+        },
             800: {
                 perView: 1.4
-            }
+            },
+          
             }
     }).mount()
     setInterval(function(){
@@ -397,8 +397,8 @@
             <div class="instagram item"><i class="fab fa-instagram"></i></div>
            </div>
         </div>
-        <h3 class="content-font">Reshmi SL</h3>
-        <span class="content-font">Faculty in Charge</span>
+        <h3 class="content-font ">Reshmi SL</h3>
+        <span class="content-font ">Faculty in Charge</span>
    
       </div>
       <div class="team_member">
@@ -410,21 +410,21 @@
             <div class="instagram item"><a href="https://www.instagram.com/fardeenkhankhadar/"><i class="fab fa-instagram"></i></a></div>
            </div>
         </div>
-        <h3 class="content-font">Fardeen Khan Khadar</h3>
-        <span class="content-font">Chairperson</span>
+        <h3 class="content-font ">Fardeen Khan Khadar</h3>
+        <span class="content-font ">Vice Chairperson</span>
         
     </div>
       <div class="team_member">
          <div class="member_img">
-           <img src="assets/images/SREELAKSHMI NS.jpg" alt="our_team" id="member_img">
+           <img src="assets/images/SREELAKSHMI NS.jpeg" alt="our_team" id="member_img">
            <div class="social_media">
              <div class="facebook item"><a href="https://www.linkedin.com/in/sreelekshmi-n-s-4409011a9"><i class="fab fa-linkedin"></i></a></div>
              <div class="twitter item"><i class="fab fa-twitter"></i></div>
              <div class="instagram item"><a href="https://instagram.com/__sr_ee_2_10_9?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></div>
            </div>
         </div>
-        <h3 class="content-font">Sreelekshmi NS</h3>
-        <span class="content-font">Vice Chairperson</span>
+        <h3 class="content-font ">Sreelekshmi NS</h3>
+        <span class="content-font ">Chairperson</span>
         
     </div>
       
@@ -488,109 +488,9 @@
     </div>
 </div>
 <!-- CONTACT FORM -->
-<div class="contact" style="margin-top: 50px;">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="location mb-4 ml-4" >
-            <h2>Visit</h2>
-            <p>TKM College </br>
-            Karicode</br>
-            Kollam</br>
-            Kerala, India
-            <br>
-           
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="row">
-            <div class="col ml-4">
-              
-              <div class="email">
-                <div class="row">
-                  
-                    <div class="icon">
-                      <img src="assets/images/email.png" alt="" srcset="">
-                    </div>
-                    
-                  
-                  <div class="col ml-4">
-
-                <h2>Email:</h2>
-                <a href="mailto:istetkmce@gmail.com" >istetkmce@gmail.com</a>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-            <div class="col ml-4">
-              
-              <div class="phone ">
-                <div class="row ">
-                 
-                    <div class="icon ">
-                        <img src="assets/images/Contact.png" alt="" srcset="">
-                     </div>
-                    
-                
-                  
-                 <div class="col ml-4 ">
-                <h2>Contact:</h2>
-                
-                <a href="tel:+999999999">9999999999</a>
-            </div>
-               
-            </div>
-                
-               
-              
-                
-              </div>
-            </div>
-            
-            
-          </div>
-          <br><br>
-            <form method="post" action="">
-                
-              <div class="form-group">
-                <label class="sr-only" for="fname">your name</label>
-                <input class="required form-control" id="fname" name="fname" placeholder="Your Name" type="text" style="background-color: aliceblue;" required>
-              </div>
-              
-              <div class="form-group">
-                <label class="sr-only" for="contactEmail">Email</label>
-                <input class="required form-control h5-email" id="contactEmail" name="contactEmail" placeholder="Your Email" type="text" style="background-color: aliceblue;" required>
-              </div>
-              <div class="form-group">
-                <label class="sr-only" for="lname">Subject</label>
-                <input class="required form-control" id="lname" name="lname" placeholder="Subject" type="text" style="background-color: aliceblue;" required>
-              </div>
-              <div class="form-group">
-                <label class="sr-only" for="comment">Message</label>
-                <textarea class="required form-control" id="comment" name="comment" placeholder="Message" rows="6" required></textarea>
-              </div>
-              <div class="text-center">
-                <button class="btn btn-accent mb-4" type="submit">Send Message</button>  
-              </div>
-              
-            </form>
-          
-          
-        
-      </div>
-    </div>
-  
-</div>	   
-</div>
-
-
-<!-- FOOTER-->
-<div class="footer mb-0"  style="width: fit-content; padding-top: 100px;">
-    <div class="container mt-4 text-center" >
-    
-        <div class="row mt-4">
+<div class="footer">
+        <div class="row mt-4 w-100 mx-auto">
             <div class="col-lg-4 col-md-6 mx-auto mt-4">
                 <div class="main w-100">
                     <div class="service1 mb-4 w-100">
@@ -603,7 +503,7 @@
                         <div class="service text-md-center" >
                         
                             <div class="service-logo">
-                                <img src="assets/images/new3.png"  alt="new letter" >
+                                <img src="assets/images/email 2.png"  alt="new letter" >
                             </div>
                                 <h4 class="heading-font">NEWSLETTER</h4>
                                 <p class="content-font text-justify px-4">
@@ -669,10 +569,105 @@
             
         </div>
     </div>
+
+<section class="gap-seperator"></section>
+
+<h1 class="heading-font fntsz-2 text-uppercase text-center mt-5" id="teamheading">Contact us</h1>
+
+<div class="contact" style="margin-top: 50px;">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 mx-auto d-flex justify-content-center align-items-center">
+           <div class="location">
+                   
+
+
+                <div class="row mb-3">
+                      
+
+                    <div class="col-6  mx-auto d-flex justify-content-center align-items-center">
+                     
+          <h5 class="mx-auto my-auto">Let us know: </h5>
+
+                    </div>
+
+                    <div class="col-6 text-center d-flex justify-content-around mx-auto">
+                        <a href="">
+
+                            <img  class="mx-auto r"  width="40px;"src="assets/images/email.png" alt="" srcset="">
+    
+                            </a>
+                        <a href="">
+
+                            <img  class="mx-auto r"  src="assets/images/Contact.png" width="40px" alt="" srcset="">
+
+
+                        </a>
+                        
+                    </div>
+                          
+        
+                                        
+                      
+                         
+        
+                            
+                        
+                          
+                      
+                        
+                       
+                      
+                        
+                    
+                    
+                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.626941914508!2d76.62976341375429!3d8.91423039323287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05fd3036020df5%3A0xc3c1007e5232dc27!2sTKM%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1646122029530!5m2!1sen!2sin"width="600" frameborder="0" style="border:0; width: 100%; height: 290px;"allowfullscreen loading="lazy"></iframe>
+           
+           </div>
+        </div>
+        <div class="col-lg-8 mx-auto">
+          
+          <br><br>
+            <form method="post" action="">
+                
+              <div class="form-group">
+                <label class="sr-only" for="fname">your name</label>
+                <input class="required form-control" id="fname" name="fname" placeholder="Your Name" type="text" style="background-color: aliceblue;" required>
+              </div>
+              
+              <div class="form-group">
+                <label class="sr-only" for="contactEmail">Email</label>
+                <input class="required form-control h5-email" id="contactEmail" name="contactEmail" placeholder="Your Email" type="text" style="background-color: aliceblue;" required>
+              </div>
+            
+              <div class="form-group">
+                <label class="sr-only" for="comment">Message</label>
+                <textarea class="required form-control" id="comment" name="comment" placeholder="Message" rows="5" required></textarea>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-accent mb-4 rounded-pill px-4 py-2" type="submit">Send Message</button>  
+              </div>
+              
+            </form>
+          
+          
+        
+      </div>
+    </div>
+  
+</div>	   
+</div>
+
+
+<!-- FOOTER-->
+<div class="footer mb-0"  style="width: fit-content;">
+
   
     
     
-    <footer class="page-footer font-small special-color-dark pt-4 text-center">
+    <footer class="page-footer font-small  pt-4 text-center" style=" background-color:rgba(0, 0, 0, 0.5);">
 
     
         <div class="container">
@@ -683,7 +678,7 @@
             <div class="col-lg-8">
       
                <div class="container">
-                    <div class="row content-font">
+                    <div class="row heading-font">
                         <div class="col-6 text-center my-auto">
                             <a href="/official-iste/#aboutus"><h6>About us</h6> </a>
                             <a href="#"><h6>Contact</h6> </a>
@@ -701,18 +696,25 @@
                </div>
       
             </div>
+           
+            <div class="col-lg-4">
+                <h5 class="heading-font mt-2 mb-3">Subscribe to our Newsletter</h5>
+
+             
+              <form class="form-group row">
             
-            <div class="col-lg-4 my-2">
-                <h5 class="content-font mt-2 mb-3">Subscribe to our Newsletter</h5>
-              <form class="input-group">
-                <input type="text" class="form-control form-control-sm" placeholder="Your email"
-                  aria-label="Your email" aria-describedby="basic-addon2">
-                
-                  <button class="btn btn-sm btn-light text-center mx-1" >ok</button>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control heading-font"  placeholder="email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-light heading-font" type="button">Button</button>
+                    </div>
+                  </div>
                 
               </form>
-      
+              <!-- <h6 class="heading-font mt-2 mb-3 mx-auto text-center">Subscription added</h6> -->
+
             </div>
+
             
       
           </div>
@@ -720,9 +722,7 @@
       
         </div>
         
-        <div class="footer-copyright text-center py-3">© 2022 Copyright:
-          <a href="https://www.instagram.com/iste_tkmce_/"> @iste_tkmce_</a>
-        </div>
+     
 </div>
 
 </footer>
