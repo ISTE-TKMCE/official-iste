@@ -289,17 +289,9 @@ font-weight:bolder;
         margin-left: 10%;
         /* margin-top: -260px; */
     }
-    .crd{
-
-        height:350px;
-        border:1px solid transparent;
-
+    .card{
+        top: 25px;
         
-        /* height:320px; */
-        /* padding:5px !important;
-        padding-top:10px !important; */
-        z-index: 1;
-        color: black;
         
     }
     
